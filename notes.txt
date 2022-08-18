@@ -1,2 +1,8 @@
+building and running:
 npx lerna run build --scope=remixapp
 npx lerna run dev --scope=remixapp
+
+versioning:
+lerna version 1.0.1 # explicit
+lerna version patch # semver keyword
+lerna version       # select from prompt(s)
